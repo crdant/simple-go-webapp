@@ -18,7 +18,7 @@ func TestRootHandler(t *testing.T) {
 
   body := string(w.Body.Bytes())
 
-  expectedBody := "Hello, World!"
+  expectedBody := "Hello, Go!"
   if body != expectedBody {
     t.Errorf("Body was %s, not %s", body, expectedBody)
   }
